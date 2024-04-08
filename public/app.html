@@ -7,30 +7,30 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>tangapp</title>
 </head>
-<body class=" bg-green-300">
-  <div class="h-[2000px] ">
-    <header class="sticky top-0">
+<body class="">
+  <div class="">
+    <header class="sticky top-0 z-10 drop-shadow-lg">
       <section>
         <nav class="bg-sky-400 flex items-center">
-          <section class="  w-full flex justify-between items-center py-4 px-4 md:w-[90%] md:m-auto lg:w-[75%] lg:m-auto xl:justify-normal ">
-            <section class=" xl:min-w-min xl:pr-36">
+          <section class="  w-full flex justify-between items-center px-8 py-3 lg:p-4 md:w-[90%] md:m-auto lg:w-[65%] lg:m-auto xl:justify-between ">
+            <section class=" xl:min-w-min">
               <a class=""  href="#">
-                <img src="./assets/logo.png" alt="logo" class="h-16 min-w-min">
+                <img src="./assets/logo.png" alt="logo" class="h-10 lg:h-14 min-w-min">
               </a>
             </section>
-            <div id="side-bar" class="divide-y hidden absolute top-0 right-0 h-screen bg-white w-[20rem] px-4 drop-shadow-lg xl:flex xl:static xl:h-max xl:divide-none xl:bg-transparent xl:w-[100%] xl:gap-36" >
-              <section class="flex py-4 justify-between items-center xl:order-2 xl:py-0">
+            <div id="side-bar" class="divide-y hidden absolute top-0 right-0 h-screen bg-white w-[20rem] px-4 drop-shadow-lg xl:flex xl:static xl:h-max xl:divide-none xl:bg-transparent xl:p-0 xl:w-max" >
+              <section class="flex py-4 justify-between items-center xl:hidden xl:py-0">
                 <div class="h-8 w-8 rounded-full bg-slate-200 flex justify-center items-center">P</div>
                 <div class="flex items-center xl:hidden ">
                   <a id="close" href="#"><span class="material-symbols-outlined bg-slate-200 ">close</span></a>
                 </div>
               </section>
-              <section class="xl:w-[90%]">
-                <ul class="xl:flex xl:justify-between ">
-                  <li><a class=" py-2 flex justify-center" href="#">Tentang kami</a></li>
-                  <li><a class=" py-2 flex justify-center" href="#">bantuan</a></li>
-                  <li><a class=" py-2 flex justify-center" href="#">profile</a></li>  
-                  <li><a class="py-2 flex justify-center" href="#">mledak</a></li>
+              <section class="">
+                <ul class="xl:flex xl:justify-between space-x-10 text-white font-bold">
+                  <li><a class=" p-2 flex items-center" href="#">Beranda</a></li>
+                  <li><a class=" p-2 flex items-center " href="#">Menu</a></li>
+                  <li><a class="border-2 py-2 px-6 flex items-center rounded-md hover:bg-sky-600" href="#">Masuk</a></li>  
+                  <li><a class="border-2 py-2 px-6 flex items-center rounded-md hover:bg-sky-600" href="#">Daftar</a></li>
                 </ul>
               </section>
             </div>
@@ -45,6 +45,38 @@
         </nav>
       </section>
     </header>
+
+    <main>
+      <wrapper>
+        <div class="bg-sky-400 h-[25rem] -skew-y-6 flex justify-center items-center -top-40 relative sm:h-[35rem] md:h-[40rem] lg:h-[45rem]">
+          <div class="absolute bottom-0 px-6 text-white  flex flex-row">
+            <img src="./assets/apaa.png" alt="yui" class="h-44 object-cover sm:h-[20rem] md:h-[25rem] lg:h-[30rem]">
+            <div class=" md:flex md:flex-col md:justify-center">
+              <p class="text-2xl font-bold sm:text-[2rem] md:text-4xl  text-wrap">STOP MENCATAT <br> <span class="text-red-500">HUTANG</span> DI KEPALA!</p>
+              <p class="text-[0.8rem] ">B-Bergabung bersama TanggApp, dan mulailah mencatat hutang piutang mu.</p>
+          </div>
+          </div>
+        </div>
+
+        <div class="snap-y flex flex-col md:flex-row justify-center items-center">
+          <div class=" flex justify-center items-center flex-col snap-center ">
+            <p class="text-4xl font-bold text-center">AYO DAFTAR <br>SEKARANG :3</p>
+            <p class="text-center">Dan catat hutang - piutangmu bersama TangApp</p>
+            <button class="bg-sky-400 px-4 py-1 rounded-md drop-shadow-lg text-white mt-10">Daftar Sekarang :3</button>
+          </div>
+
+          <div class="pt-24 px-12 md:p-0">
+            <img src="./assets/dayum.png" alt="" class="object-cover md:h-56">
+          </div>
+        </div>
+      </wrapper>
+    </main>
+
+    <footer>
+      <div class="mt-20 text-slate-700">
+        <p class="bg-sky-400 px-6">© 2024 Copyright: Sigit</p>
+      </div>
+    </footer>
   </div>
 
 
